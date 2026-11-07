@@ -1,0 +1,8 @@
+# vcstool manifest for the NEXOS ROS 2 civil workspace.
+# Usage:  vcs import src < nexos_ros2.repos
+# Pin 'version' to a release tag for reproducible/defence builds.
+repositories:
+  nexos_ros2_epos:
+    type: git
+    url: https://github.com/NEXOSGroup/nexos_ros2_epos.git
+    version: main
